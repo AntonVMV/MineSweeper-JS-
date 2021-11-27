@@ -1,0 +1,39 @@
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+    margin: 1px;
+}
+.row {
+    display: flex;
+}
+
+.open{
+    background-color: white;
+}
+
+.bomb {
+    background: center / contain no-repeat url(img/bomb.png);
+}
+
+.lock {
+    background: center / contain no-repeat url(img/flag.png);
+    background-color: grey;
+}
+
+.bomb_detonate {
+    background-color: red;
+}
+
+.reset {
+    width: 100px;
+    height: 30px;
+}
